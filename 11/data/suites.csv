@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jun 04 11:39:34 GMT 2022","Sat Jun 04 11:39:59 GMT 2022","24902","","tests/testwithether.spec.ts","Test Suite - Ethereum","","","Test - select a token exchange pair to get swap rate",""
+"passed","Sat Jun 04 11:39:59 GMT 2022","Sat Jun 04 11:40:03 GMT 2022","3552","","tests/testwithether.spec.ts","Test Suite - Ethereum","","","Test - token swap is not allowed for insufficient fund",""
+"passed","Sat Jun 04 11:40:03 GMT 2022","Sat Jun 04 11:40:05 GMT 2022","1649","","tests/testwithether.spec.ts","Test Suite - Ethereum","","","Test - import a custom erc20 token",""
+"failed","Sat Jun 04 11:40:05 GMT 2022","Sat Jun 04 11:41:42 GMT 2022","97726","","tests/testwithrinkeby.spec.ts","Test Suite - Rinkeby","","","Test - perform token swap for an exchange pair when account has sufficient fund",""
