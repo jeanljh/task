@@ -24,20 +24,15 @@ export class Metamask {
     async login(network: string) {
         await this.page.goto(data.urlMeta)
         await this.page.waitForLoadState()
-        const keys = data.key.split(' ')
-        for (let i = 0; i < keys.length; i++) {
-            await this.inputKeyById(i).fill(keys[i])
+        if (process.env.CI) {
+            const keys = data.key.split(' ')
+            for (let i = 0; i < keys.length; i++)
+                await this.inputKeyById(i).fill(keys[i])
         }
-        // if (process.env.CI) {
-        //     const keys = data.key.split(' ')
-        //     for (let i = 0; i < keys.length; i++) {
-        //         await this.inputKeyById(i).fill(keys[i])
-        //     }
-        // }
-        // else {
-        //     await this.page.evaluate(k => navigator.clipboard.writeText(k), data.key)
-        //     await this.inputKey().press('Control+V')
-        // }
+        else {
+            await this.page.evaluate(k => navigator.clipboard.writeText(k), data.key)
+            await this.inputKey().press('Control+V')
+        }
         await this.inputPassword().fill(data.password)
         await this.inputConfirmPassword().fill(data.password)
         await this.ckbTerms().click()
