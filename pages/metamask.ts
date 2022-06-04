@@ -25,8 +25,9 @@ export class Metamask {
         await this.page.goto(data.urlMeta)
         await this.page.waitForLoadState()
         const keys = data.key.split(' ')
-        for (let i = 0; i < keys.length; i++)
+        for (let i = 0; i < keys.length; i++) {
             await this.inputKeyById(i).fill(keys[i])
+        }
         /** alternative way - write secret keys to clibboard and paste with keyboard command 'Control+V' */
         // await this.page.evaluate(k => navigator.clipboard.writeText(k), data.key)
         // await this.inputKey().press('Control+V')
