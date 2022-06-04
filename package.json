@@ -1,9 +1,9 @@
 {
-  "name": "pw-extension",
+  "name": "task",
   "version": "1.0.0",
   "description": "example of test automation on uniswap with playwright",
   "main": "index.js",
-  "author": "",
+  "author": "jean",
   "scripts": {
     "allure:generate": "npx allure generate ./allure-results --clean",
     "allure:open": "npx allure open ./allure-report",
