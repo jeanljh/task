@@ -24,13 +24,13 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - uses: microsoft/playwright-github-action@v1
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.1.1
         with:
          cache: 'npm'
+      - uses: microsoft/playwright-github-action@v1
       - run: npm ci
-      - run: xvfb-run --auto-servernum -- npm run test 
+      - run: xvfb-run --auto-servernum -- npm test 
         
       - name: Get Allure history
         uses: actions/checkout@v3
