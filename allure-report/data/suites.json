@@ -1,0 +1,89 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests\\testwithether.spec.ts",
+    "children" : [ {
+      "name" : "Test Suite - Ethereum",
+      "children" : [ {
+        "name" : "Test - select a token exchange pair to get swap rate",
+        "uid" : "6446bd307180c30c",
+        "parentUid" : "f070385c33ca7bcc43bebf5afebadf4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654320853095,
+          "stop" : 1654320875828,
+          "duration" : 22733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test - token swap is not allowed for insufficient fund",
+        "uid" : "c0ff8e2fa6e27da1",
+        "parentUid" : "f070385c33ca7bcc43bebf5afebadf4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654320875829,
+          "stop" : 1654320877666,
+          "duration" : 1837
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test - import a custom erc20 token",
+        "uid" : "abbdd077113fa409",
+        "parentUid" : "f070385c33ca7bcc43bebf5afebadf4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654320877667,
+          "stop" : 1654320879380,
+          "duration" : 1713
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f070385c33ca7bcc43bebf5afebadf4f"
+    } ],
+    "uid" : "f41cb07de7844ce7b7e87be8d2168554"
+  }, {
+    "name" : "tests\\testwithrinkeby.spec.ts",
+    "children" : [ {
+      "name" : "Test Suite - Rinkeby",
+      "children" : [ {
+        "name" : "Test - perform token swap for an exchange pair when account has sufficient fund",
+        "uid" : "90fccf424de26df3",
+        "parentUid" : "5918781cacc372e3f5002816b8048212",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654320879385,
+          "stop" : 1654320931050,
+          "duration" : 51665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5918781cacc372e3f5002816b8048212"
+    } ],
+    "uid" : "b4bd9dcbc857ca686465fdbdf870fde0"
+  } ],
+  "name" : "suites"
+}
