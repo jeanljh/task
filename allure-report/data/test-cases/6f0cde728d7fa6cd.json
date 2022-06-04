@@ -1,12 +1,12 @@
 {
-  "uid" : "c0ff8e2fa6e27da1",
+  "uid" : "6f0cde728d7fa6cd",
   "name" : "Test - token swap is not allowed for insufficient fund",
   "fullName" : "Test - token swap is not allowed for insufficient fund",
   "historyId" : " tests\\testwithether.spec.ts Test Suite - Ethereum Test - token swap is not allowed for insufficient fund",
   "time" : {
-    "start" : 1654320875829,
-    "stop" : 1654320877666,
-    "duration" : 1837
+    "start" : 1654341328083,
+    "stop" : 1654341329855,
+    "duration" : 1772
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,9 +21,9 @@
     "steps" : [ {
       "name" : "Before Hooks",
       "time" : {
-        "start" : 1654320875829,
-        "stop" : 1654320875832,
-        "duration" : 3
+        "start" : 1654341328083,
+        "stop" : 1654341328085,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -36,9 +36,9 @@
     }, {
       "name" : "locator.fill(#swap-currency-input >> input)",
       "time" : {
-        "start" : 1654320875833,
-        "stop" : 1654320875876,
-        "duration" : 43
+        "start" : 1654341328086,
+        "stop" : 1654341328121,
+        "duration" : 35
       },
       "status" : "passed",
       "steps" : [ ],
@@ -51,8 +51,8 @@
     }, {
       "name" : "locator.inputValue(#swap-currency-input >> input)",
       "time" : {
-        "start" : 1654320875876,
-        "stop" : 1654320875881,
+        "start" : 1654341328122,
+        "stop" : 1654341328127,
         "duration" : 5
       },
       "status" : "passed",
@@ -66,8 +66,8 @@
     }, {
       "name" : "entered input amount",
       "time" : {
-        "start" : 1654320875882,
-        "stop" : 1654320875882,
+        "start" : 1654341328127,
+        "stop" : 1654341328127,
         "duration" : 0
       },
       "status" : "passed",
@@ -81,9 +81,9 @@
     }, {
       "name" : "locator.innerText(#swap-currency-input >> span.token-symbol-container)",
       "time" : {
-        "start" : 1654320875882,
-        "stop" : 1654320875886,
-        "duration" : 4
+        "start" : 1654341328128,
+        "stop" : 1654341328131,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -96,9 +96,9 @@
     }, {
       "name" : "locator.click(#swap-currency-input >> span.token-symbol-container)",
       "time" : {
-        "start" : 1654320875886,
-        "stop" : 1654320876072,
-        "duration" : 186
+        "start" : 1654341328132,
+        "stop" : 1654341328270,
+        "duration" : 138
       },
       "status" : "passed",
       "steps" : [ ],
@@ -111,9 +111,9 @@
     }, {
       "name" : "locator.fill(#token-search-input)",
       "time" : {
-        "start" : 1654320876074,
-        "stop" : 1654320876183,
-        "duration" : 109
+        "start" : 1654341328272,
+        "stop" : 1654341328301,
+        "duration" : 29
       },
       "status" : "passed",
       "steps" : [ ],
@@ -124,11 +124,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "locator.click(.css-8mokm4 >> text='UNI')",
+      "name" : "locator.click(div.css-8mokm4 >> text='UNI')",
       "time" : {
-        "start" : 1654320876184,
-        "stop" : 1654320876850,
-        "duration" : 666
+        "start" : 1654341328302,
+        "stop" : 1654341328987,
+        "duration" : 685
       },
       "status" : "passed",
       "steps" : [ ],
@@ -141,8 +141,8 @@
     }, {
       "name" : "locator.innerText(#swap-currency-input >> span.token-symbol-container)",
       "time" : {
-        "start" : 1654320876851,
-        "stop" : 1654320876855,
+        "start" : 1654341328988,
+        "stop" : 1654341328992,
         "duration" : 4
       },
       "status" : "passed",
@@ -156,8 +156,8 @@
     }, {
       "name" : "selected input token",
       "time" : {
-        "start" : 1654320876856,
-        "stop" : 1654320876856,
+        "start" : 1654341328993,
+        "stop" : 1654341328993,
         "duration" : 0
       },
       "status" : "passed",
@@ -171,9 +171,9 @@
     }, {
       "name" : "locator.innerText(#swap-currency-output >> span.token-symbol-container)",
       "time" : {
-        "start" : 1654320876856,
-        "stop" : 1654320876864,
-        "duration" : 8
+        "start" : 1654341328994,
+        "stop" : 1654341329000,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -186,9 +186,9 @@
     }, {
       "name" : "locator.click(#swap-currency-output >> span.token-symbol-container)",
       "time" : {
-        "start" : 1654320876864,
-        "stop" : 1654320877189,
-        "duration" : 325
+        "start" : 1654341329000,
+        "stop" : 1654341329321,
+        "duration" : 321
       },
       "status" : "passed",
       "steps" : [ ],
@@ -201,9 +201,9 @@
     }, {
       "name" : "locator.fill(#token-search-input)",
       "time" : {
-        "start" : 1654320877190,
-        "stop" : 1654320877211,
-        "duration" : 21
+        "start" : 1654341329322,
+        "stop" : 1654341329336,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
@@ -214,11 +214,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "locator.click(.css-8mokm4 >> text='MKR')",
+      "name" : "locator.click(div.css-8mokm4 >> text='MKR')",
       "time" : {
-        "start" : 1654320877212,
-        "stop" : 1654320877650,
-        "duration" : 438
+        "start" : 1654341329337,
+        "stop" : 1654341329833,
+        "duration" : 496
       },
       "status" : "passed",
       "steps" : [ ],
@@ -231,9 +231,9 @@
     }, {
       "name" : "locator.innerText(#swap-currency-output >> span.token-symbol-container)",
       "time" : {
-        "start" : 1654320877650,
-        "stop" : 1654320877654,
-        "duration" : 4
+        "start" : 1654341329834,
+        "stop" : 1654341329840,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -246,8 +246,8 @@
     }, {
       "name" : "selected output token",
       "time" : {
-        "start" : 1654320877655,
-        "stop" : 1654320877655,
+        "start" : 1654341329841,
+        "stop" : 1654341329841,
         "duration" : 0
       },
       "status" : "passed",
@@ -261,9 +261,9 @@
     }, {
       "name" : "locator.inputValue(#swap-currency-output >> input)",
       "time" : {
-        "start" : 1654320877655,
-        "stop" : 1654320877663,
-        "duration" : 8
+        "start" : 1654341329841,
+        "stop" : 1654341329850,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -276,8 +276,8 @@
     }, {
       "name" : "display swap value of output token",
       "time" : {
-        "start" : 1654320877663,
-        "stop" : 1654320877663,
+        "start" : 1654341329851,
+        "stop" : 1654341329851,
         "duration" : 0
       },
       "status" : "passed",
@@ -291,7 +291,7 @@
     }, {
       "name" : "swap button enable state",
       "time" : {
-        "start" : 1654320877664
+        "start" : 1654341329851
       },
       "status" : "unknown",
       "steps" : [ ],
@@ -304,8 +304,8 @@
     }, {
       "name" : "After Hooks",
       "time" : {
-        "start" : 1654320877666,
-        "stop" : 1654320877666,
+        "start" : 1654341329854,
+        "stop" : 1654341329854,
         "duration" : 0
       },
       "status" : "passed",
@@ -351,6 +351,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c0ff8e2fa6e27da1.json",
+  "source" : "6f0cde728d7fa6cd.json",
   "parameterValues" : [ ]
 }

@@ -9,6 +9,7 @@ export class Metamask {
     }
 
     inputKey = () => this.page.locator('div.MuiFormControl-root #import-srp__srp-word-0')
+    inputKeyById = (id: number) => this.page.locator(`div.MuiFormControl-root #import-srp__srp-word-${id}`)
     inputPassword = () => this.page.locator('#password')
     inputConfirmPassword = () => this.page.locator('#confirm-password')
     ckbTerms = () => this.page.locator('#create-new-vault__terms-checkbox')
@@ -23,8 +24,20 @@ export class Metamask {
     async login(network: string) {
         await this.page.goto(data.urlMeta)
         await this.page.waitForLoadState()
-        await this.page.evaluate(k => navigator.clipboard.writeText(k), data.key)
-        await this.inputKey().press('Control+V')
+        const keys = data.key.split(' ')
+        for (let i = 0; i < keys.length; i++) {
+            await this.inputKeyById(i).fill(keys[i])
+        }
+        // if (process.env.CI) {
+        //     const keys = data.key.split(' ')
+        //     for (let i = 0; i < keys.length; i++) {
+        //         await this.inputKeyById(i).fill(keys[i])
+        //     }
+        // }
+        // else {
+        //     await this.page.evaluate(k => navigator.clipboard.writeText(k), data.key)
+        //     await this.inputKey().press('Control+V')
+        // }
         await this.inputPassword().fill(data.password)
         await this.inputConfirmPassword().fill(data.password)
         await this.ckbTerms().click()

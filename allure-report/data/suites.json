@@ -6,13 +6,13 @@
       "name" : "Test Suite - Ethereum",
       "children" : [ {
         "name" : "Test - select a token exchange pair to get swap rate",
-        "uid" : "6446bd307180c30c",
+        "uid" : "c62ddff31c112dfb",
         "parentUid" : "f070385c33ca7bcc43bebf5afebadf4f",
         "status" : "passed",
         "time" : {
-          "start" : 1654320853095,
-          "stop" : 1654320875828,
-          "duration" : 22733
+          "start" : 1654341308615,
+          "stop" : 1654341328082,
+          "duration" : 19467
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +23,13 @@
         "parameters" : [ ]
       }, {
         "name" : "Test - token swap is not allowed for insufficient fund",
-        "uid" : "c0ff8e2fa6e27da1",
+        "uid" : "6f0cde728d7fa6cd",
         "parentUid" : "f070385c33ca7bcc43bebf5afebadf4f",
         "status" : "passed",
         "time" : {
-          "start" : 1654320875829,
-          "stop" : 1654320877666,
-          "duration" : 1837
+          "start" : 1654341328083,
+          "stop" : 1654341329855,
+          "duration" : 1772
         },
         "flaky" : false,
         "newFailed" : false,
@@ -40,13 +40,13 @@
         "parameters" : [ ]
       }, {
         "name" : "Test - import a custom erc20 token",
-        "uid" : "abbdd077113fa409",
+        "uid" : "89f360093cc708c9",
         "parentUid" : "f070385c33ca7bcc43bebf5afebadf4f",
         "status" : "passed",
         "time" : {
-          "start" : 1654320877667,
-          "stop" : 1654320879380,
-          "duration" : 1713
+          "start" : 1654341329856,
+          "stop" : 1654341331374,
+          "duration" : 1518
         },
         "flaky" : false,
         "newFailed" : false,
@@ -65,13 +65,13 @@
       "name" : "Test Suite - Rinkeby",
       "children" : [ {
         "name" : "Test - perform token swap for an exchange pair when account has sufficient fund",
-        "uid" : "90fccf424de26df3",
+        "uid" : "21724e1238dd987",
         "parentUid" : "5918781cacc372e3f5002816b8048212",
         "status" : "passed",
         "time" : {
-          "start" : 1654320879385,
-          "stop" : 1654320931050,
-          "duration" : 51665
+          "start" : 1654341331378,
+          "stop" : 1654341392635,
+          "duration" : 61257
         },
         "flaky" : false,
         "newFailed" : false,

@@ -1,12 +1,12 @@
 {
-  "uid" : "abbdd077113fa409",
+  "uid" : "89f360093cc708c9",
   "name" : "Test - import a custom erc20 token",
   "fullName" : "Test - import a custom erc20 token",
   "historyId" : " tests\\testwithether.spec.ts Test Suite - Ethereum Test - import a custom erc20 token",
   "time" : {
-    "start" : 1654320877667,
-    "stop" : 1654320879380,
-    "duration" : 1713
+    "start" : 1654341329856,
+    "stop" : 1654341331374,
+    "duration" : 1518
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,8 +21,8 @@
     "steps" : [ {
       "name" : "Before Hooks",
       "time" : {
-        "start" : 1654320877667,
-        "stop" : 1654320877671,
+        "start" : 1654341329856,
+        "stop" : 1654341329860,
         "duration" : 4
       },
       "status" : "passed",
@@ -36,9 +36,9 @@
     }, {
       "name" : "locator.click(#swap-currency-input >> span.token-symbol-container)",
       "time" : {
-        "start" : 1654320877671,
-        "stop" : 1654320878022,
-        "duration" : 351
+        "start" : 1654341329861,
+        "stop" : 1654341330168,
+        "duration" : 307
       },
       "status" : "passed",
       "steps" : [ ],
@@ -51,9 +51,9 @@
     }, {
       "name" : "locator.fill(#token-search-input)",
       "time" : {
-        "start" : 1654320878023,
-        "stop" : 1654320878344,
-        "duration" : 321
+        "start" : 1654341330169,
+        "stop" : 1654341330441,
+        "duration" : 272
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,9 +66,9 @@
     }, {
       "name" : "locator.click(button >> text='Import')",
       "time" : {
-        "start" : 1654320878344,
-        "stop" : 1654320878651,
-        "duration" : 307
+        "start" : 1654341330442,
+        "stop" : 1654341330737,
+        "duration" : 295
       },
       "status" : "passed",
       "steps" : [ ],
@@ -81,9 +81,9 @@
     }, {
       "name" : "locator.click(button >> text='Import')",
       "time" : {
-        "start" : 1654320878651,
-        "stop" : 1654320878715,
-        "duration" : 64
+        "start" : 1654341330738,
+        "stop" : 1654341330803,
+        "duration" : 65
       },
       "status" : "passed",
       "steps" : [ ],
@@ -96,8 +96,8 @@
     }, {
       "name" : "locator.inputValue(#swap-currency-output >> input)",
       "time" : {
-        "start" : 1654320878715,
-        "stop" : 1654320878718,
+        "start" : 1654341330803,
+        "stop" : 1654341330806,
         "duration" : 3
       },
       "status" : "passed",
@@ -111,8 +111,8 @@
     }, {
       "name" : "locator.innerText(#swap-currency-input >> span.token-symbol-container)",
       "time" : {
-        "start" : 1654320878718,
-        "stop" : 1654320878720,
+        "start" : 1654341330807,
+        "stop" : 1654341330809,
         "duration" : 2
       },
       "status" : "passed",
@@ -126,9 +126,9 @@
     }, {
       "name" : "imported token symbol",
       "time" : {
-        "start" : 1654320878720,
-        "stop" : 1654320878721,
-        "duration" : 1
+        "start" : 1654341330810,
+        "stop" : 1654341330810,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -141,25 +141,25 @@
     }, {
       "name" : "After Hooks",
       "time" : {
-        "start" : 1654320878721,
-        "stop" : 1654320879380,
-        "duration" : 659
+        "start" : 1654341330810,
+        "stop" : 1654341331373,
+        "duration" : 563
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "afterAll hook",
         "time" : {
-          "start" : 1654320878721,
-          "stop" : 1654320879380,
-          "duration" : 659
+          "start" : 1654341330810,
+          "stop" : 1654341331373,
+          "duration" : 563
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "browserContext.close",
           "time" : {
-            "start" : 1654320879023,
-            "stop" : 1654320879380,
-            "duration" : 357
+            "start" : 1654341331112,
+            "stop" : 1654341331373,
+            "duration" : 261
           },
           "status" : "passed",
           "steps" : [ ],
@@ -218,6 +218,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "abbdd077113fa409.json",
+  "source" : "89f360093cc708c9.json",
   "parameterValues" : [ ]
 }
