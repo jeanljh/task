@@ -20,10 +20,10 @@ test.describe('Test Suite - Ethereum', async () => {
         await uniswap.connectMeta(browserContext)
     })
     test('Test - select a token exchange pair to get swap rate', async () => {
-        await uniswap.getSwapRate(data.validSwap.tokenFrom, data.validSwap.tokenTo, data.validSwap.amount)
+        await uniswap.getSwapRate(data.swapPair1.tokenFrom, data.swapPair1.tokenTo, data.swapPair1.amount)
     })
     test('Test - token swap is not allowed for insufficient fund', async () => {
-        await uniswap.getSwapRate(data.invalidSwap.tokenFrom, data.invalidSwap.tokenTo, data.invalidSwap.amount)
+        await uniswap.getSwapRate(data.swapPair2.tokenFrom, data.swapPair2.tokenTo, data.swapPair2.amount)
         expect(uniswap.btnSwap(), 'swap button enable state').toBeDisabled()
     })
     test('Test - import a custom erc20 token', async () => {

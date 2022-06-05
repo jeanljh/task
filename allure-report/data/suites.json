@@ -1,18 +1,19 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "tests\\testwithether.spec.ts",
     "children" : [ {
       "name" : "Test Suite - Ethereum",
       "children" : [ {
         "name" : "Test - select a token exchange pair to get swap rate",
-        "uid" : "c62ddff31c112dfb",
+        "uid" : "b35287cd93f52f70",
         "parentUid" : "f070385c33ca7bcc43bebf5afebadf4f",
         "status" : "passed",
         "time" : {
-          "start" : 1654341308615,
-          "stop" : 1654341328082,
-          "duration" : 19467
+          "start" : 1654416394826,
+          "stop" : 1654416413284,
+          "duration" : 18458
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +24,13 @@
         "parameters" : [ ]
       }, {
         "name" : "Test - token swap is not allowed for insufficient fund",
-        "uid" : "6f0cde728d7fa6cd",
+        "uid" : "392e67d6bc301a22",
         "parentUid" : "f070385c33ca7bcc43bebf5afebadf4f",
         "status" : "passed",
         "time" : {
-          "start" : 1654341328083,
-          "stop" : 1654341329855,
-          "duration" : 1772
+          "start" : 1654416413285,
+          "stop" : 1654416416878,
+          "duration" : 3593
         },
         "flaky" : false,
         "newFailed" : false,
@@ -40,13 +41,13 @@
         "parameters" : [ ]
       }, {
         "name" : "Test - import a custom erc20 token",
-        "uid" : "89f360093cc708c9",
+        "uid" : "1b4815193ea33c21",
         "parentUid" : "f070385c33ca7bcc43bebf5afebadf4f",
         "status" : "passed",
         "time" : {
-          "start" : 1654341329856,
-          "stop" : 1654341331374,
-          "duration" : 1518
+          "start" : 1654416416889,
+          "stop" : 1654416417929,
+          "duration" : 1040
         },
         "flaky" : false,
         "newFailed" : false,
@@ -65,13 +66,13 @@
       "name" : "Test Suite - Rinkeby",
       "children" : [ {
         "name" : "Test - perform token swap for an exchange pair when account has sufficient fund",
-        "uid" : "21724e1238dd987",
+        "uid" : "20323f4d85fb1366",
         "parentUid" : "5918781cacc372e3f5002816b8048212",
         "status" : "passed",
         "time" : {
-          "start" : 1654341331378,
-          "stop" : 1654341392635,
-          "duration" : 61257
+          "start" : 1654416417934,
+          "stop" : 1654416493303,
+          "duration" : 75369
         },
         "flaky" : false,
         "newFailed" : false,
@@ -84,6 +85,5 @@
       "uid" : "5918781cacc372e3f5002816b8048212"
     } ],
     "uid" : "b4bd9dcbc857ca686465fdbdf870fde0"
-  } ],
-  "name" : "suites"
+  } ]
 }

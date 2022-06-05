@@ -1,5 +1,5 @@
 {
-  "name": "task",
+  "name": "task-playwright",
   "version": "1.0.0",
   "description": "example of test automation on uniswap with playwright",
   "main": "index.js",

@@ -20,7 +20,7 @@ test.describe('Test Suite - Rinkeby', async () => {
         await uniswap.connectMeta(browserContext)
     })
     test('Test - perform token swap for an exchange pair when account has sufficient fund', async () => {
-        await uniswap.getSwapRate(data.validSwap.tokenFrom, data.validSwap.tokenTo, data.validSwap.amount)
+        await uniswap.getSwapRate(data.swapPair1.tokenFrom, data.swapPair1.tokenTo, data.swapPair1.amount)
         await uniswap.swapToken(browserContext)
     })
     test.afterAll(async () => {

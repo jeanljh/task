@@ -1,14 +1,15 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
   "children" : [ {
-    "name" : "Test - token swap is not allowed for insufficient fund",
-    "uid" : "6f0cde728d7fa6cd",
+    "name" : "Test - import a custom erc20 token",
+    "uid" : "1b4815193ea33c21",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1654341328083,
-      "stop" : 1654341329855,
-      "duration" : 1772
+      "start" : 1654416416889,
+      "stop" : 1654416417929,
+      "duration" : 1040
     },
     "flaky" : false,
     "newFailed" : false,
@@ -19,13 +20,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Test - perform token swap for an exchange pair when account has sufficient fund",
-    "uid" : "21724e1238dd987",
+    "uid" : "20323f4d85fb1366",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1654341331378,
-      "stop" : 1654341392635,
-      "duration" : 61257
+      "start" : 1654416417934,
+      "stop" : 1654416493303,
+      "duration" : 75369
     },
     "flaky" : false,
     "newFailed" : false,
@@ -35,14 +36,14 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Test - import a custom erc20 token",
-    "uid" : "89f360093cc708c9",
+    "name" : "Test - token swap is not allowed for insufficient fund",
+    "uid" : "392e67d6bc301a22",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1654341329856,
-      "stop" : 1654341331374,
-      "duration" : 1518
+      "start" : 1654416413285,
+      "stop" : 1654416416878,
+      "duration" : 3593
     },
     "flaky" : false,
     "newFailed" : false,
@@ -53,13 +54,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Test - select a token exchange pair to get swap rate",
-    "uid" : "c62ddff31c112dfb",
+    "uid" : "b35287cd93f52f70",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1654341308615,
-      "stop" : 1654341328082,
-      "duration" : 19467
+      "start" : 1654416394826,
+      "stop" : 1654416413284,
+      "duration" : 18458
     },
     "flaky" : false,
     "newFailed" : false,
@@ -68,6 +69,5 @@
     "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ ]
-  } ],
-  "name" : "timeline"
+  } ]
 }

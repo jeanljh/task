@@ -1,40 +1,40 @@
 [ {
-  "uid" : "89f360093cc708c9",
-  "name" : "Test - import a custom erc20 token",
-  "time" : {
-    "start" : 1654341329856,
-    "stop" : 1654341331374,
-    "duration" : 1518
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c62ddff31c112dfb",
-  "name" : "Test - select a token exchange pair to get swap rate",
-  "time" : {
-    "start" : 1654341308615,
-    "stop" : 1654341328082,
-    "duration" : 19467
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6f0cde728d7fa6cd",
+  "uid" : "392e67d6bc301a22",
   "name" : "Test - token swap is not allowed for insufficient fund",
   "time" : {
-    "start" : 1654341328083,
-    "stop" : 1654341329855,
-    "duration" : 1772
+    "start" : 1654416413285,
+    "stop" : 1654416416878,
+    "duration" : 3593
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "21724e1238dd987",
+  "uid" : "1b4815193ea33c21",
+  "name" : "Test - import a custom erc20 token",
+  "time" : {
+    "start" : 1654416416889,
+    "stop" : 1654416417929,
+    "duration" : 1040
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b35287cd93f52f70",
+  "name" : "Test - select a token exchange pair to get swap rate",
+  "time" : {
+    "start" : 1654416394826,
+    "stop" : 1654416413284,
+    "duration" : 18458
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20323f4d85fb1366",
   "name" : "Test - perform token swap for an exchange pair when account has sufficient fund",
   "time" : {
-    "start" : 1654341331378,
-    "stop" : 1654341392635,
-    "duration" : 61257
+    "start" : 1654416417934,
+    "stop" : 1654416493303,
+    "duration" : 75369
   },
   "status" : "passed",
   "severity" : "normal"
