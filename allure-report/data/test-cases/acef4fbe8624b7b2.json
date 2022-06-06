@@ -1,12 +1,12 @@
 {
-  "uid" : "392e67d6bc301a22",
+  "uid" : "acef4fbe8624b7b2",
   "name" : "Test - token swap is not allowed for insufficient fund",
   "fullName" : "Test - token swap is not allowed for insufficient fund",
   "historyId" : " tests\\testwithether.spec.ts Test Suite - Ethereum Test - token swap is not allowed for insufficient fund",
   "time" : {
-    "start" : 1654416413285,
-    "stop" : 1654416416878,
-    "duration" : 3593
+    "start" : 1654488368536,
+    "stop" : 1654488373393,
+    "duration" : 4857
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,368 +21,398 @@
     "steps" : [ {
       "name" : "Before Hooks",
       "time" : {
-        "start" : 1654416413285,
-        "stop" : 1654416413286,
-        "duration" : 1
+        "start" : 1654488368536,
+        "stop" : 1654488368538,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "locator.fill(#swap-currency-input >> input)",
       "time" : {
-        "start" : 1654416413287,
-        "stop" : 1654416413319,
-        "duration" : 32
+        "start" : 1654488368539,
+        "stop" : 1654488368576,
+        "duration" : 37
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "locator.inputValue(#swap-currency-input >> input)",
       "time" : {
-        "start" : 1654416413320,
-        "stop" : 1654416413323,
-        "duration" : 3
+        "start" : 1654488368577,
+        "stop" : 1654488368581,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "entered input amount",
       "time" : {
-        "start" : 1654416413324,
-        "stop" : 1654416413324,
+        "start" : 1654488368582,
+        "stop" : 1654488368582,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "locator.innerText(#swap-currency-input >> span.token-symbol-container)",
       "time" : {
-        "start" : 1654416413324,
-        "stop" : 1654416413328,
-        "duration" : 4
+        "start" : 1654488368582,
+        "stop" : 1654488368631,
+        "duration" : 49
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "locator.click(#swap-currency-input >> span.token-symbol-container)",
       "time" : {
-        "start" : 1654416413328,
-        "stop" : 1654416413422,
-        "duration" : 94
+        "start" : 1654488368631,
+        "stop" : 1654488368766,
+        "duration" : 135
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "locator.fill(#token-search-input)",
       "time" : {
-        "start" : 1654416413422,
-        "stop" : 1654416413438,
-        "duration" : 16
+        "start" : 1654488368766,
+        "stop" : 1654488368836,
+        "duration" : 70
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "locator.click(div.css-8mokm4 >> text='AXS')",
       "time" : {
-        "start" : 1654416413439,
-        "stop" : 1654416413919,
-        "duration" : 480
+        "start" : 1654488368836,
+        "stop" : 1654488369248,
+        "duration" : 412
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "locator.innerText(#swap-currency-input >> span.token-symbol-container)",
       "time" : {
-        "start" : 1654416413919,
-        "stop" : 1654416413927,
-        "duration" : 8
+        "start" : 1654488369248,
+        "stop" : 1654488369259,
+        "duration" : 11
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "selected input token",
       "time" : {
-        "start" : 1654416413928,
-        "stop" : 1654416413928,
+        "start" : 1654488369259,
+        "stop" : 1654488369259,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "locator.innerText(#swap-currency-output >> span.token-symbol-container)",
       "time" : {
-        "start" : 1654416413928,
-        "stop" : 1654416413931,
-        "duration" : 3
+        "start" : 1654488369259,
+        "stop" : 1654488369264,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "locator.click(#swap-currency-output >> span.token-symbol-container)",
       "time" : {
-        "start" : 1654416413932,
-        "stop" : 1654416414267,
-        "duration" : 335
+        "start" : 1654488369264,
+        "stop" : 1654488369664,
+        "duration" : 400
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "locator.fill(#token-search-input)",
       "time" : {
-        "start" : 1654416414267,
-        "stop" : 1654416414280,
-        "duration" : 13
+        "start" : 1654488369665,
+        "stop" : 1654488369684,
+        "duration" : 19
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "locator.click(div.css-8mokm4 >> text='BAT')",
       "time" : {
-        "start" : 1654416414281,
-        "stop" : 1654416414688,
-        "duration" : 407
+        "start" : 1654488369688,
+        "stop" : 1654488370208,
+        "duration" : 520
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "locator.innerText(#swap-currency-output >> span.token-symbol-container)",
       "time" : {
-        "start" : 1654416414689,
-        "stop" : 1654416414693,
-        "duration" : 4
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "selected output token",
-      "time" : {
-        "start" : 1654416414694,
-        "stop" : 1654416414694,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "locator.inputValue(#swap-currency-output >> input)",
-      "time" : {
-        "start" : 1654416414695,
-        "stop" : 1654416414701,
+        "start" : 1654488370209,
+        "stop" : 1654488370215,
         "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
-      "name" : "page.waitForTimeout",
+      "name" : "selected output token",
       "time" : {
-        "start" : 1654416414701,
-        "stop" : 1654416415710,
-        "duration" : 1009
+        "start" : 1654488370216,
+        "stop" : 1654488370216,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "locator.inputValue(#swap-currency-output >> input)",
       "time" : {
-        "start" : 1654416415711,
-        "stop" : 1654416415727,
-        "duration" : 16
+        "start" : 1654488370216,
+        "stop" : 1654488370223,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "page.waitForTimeout",
       "time" : {
-        "start" : 1654416415728,
-        "stop" : 1654416416735,
+        "start" : 1654488370224,
+        "stop" : 1654488371231,
         "duration" : 1007
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "locator.inputValue(#swap-currency-output >> input)",
       "time" : {
-        "start" : 1654416416736,
-        "stop" : 1654416416875,
-        "duration" : 139
+        "start" : 1654488371232,
+        "stop" : 1654488371240,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForTimeout",
+      "time" : {
+        "start" : 1654488371241,
+        "stop" : 1654488372254,
+        "duration" : 1013
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.inputValue(#swap-currency-output >> input)",
+      "time" : {
+        "start" : 1654488372255,
+        "stop" : 1654488372260,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForTimeout",
+      "time" : {
+        "start" : 1654488372260,
+        "stop" : 1654488373271,
+        "duration" : 1011
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.inputValue(#swap-currency-output >> input)",
+      "time" : {
+        "start" : 1654488373272,
+        "stop" : 1654488373389,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "display swap value of output token",
       "time" : {
-        "start" : 1654416416875,
-        "stop" : 1654416416875,
+        "start" : 1654488373390,
+        "stop" : 1654488373390,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "swap button enable state",
       "time" : {
-        "start" : 1654416416876
+        "start" : 1654488373390
       },
       "status" : "unknown",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "After Hooks",
       "time" : {
-        "start" : 1654416416878,
-        "stop" : 1654416416878,
+        "start" : 1654488373393,
+        "stop" : 1654488373393,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 24,
-    "hasContent" : true,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 26,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -411,6 +441,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "392e67d6bc301a22.json",
+  "source" : "acef4fbe8624b7b2.json",
   "parameterValues" : [ ]
 }

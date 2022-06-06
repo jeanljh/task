@@ -3,7 +3,7 @@ import data from '../fixtures/data.json'
 
 export class Setup {
 
-    /** load metamask extension for chrome */
+    /** create browser context */
     async init() {
         const extPath = __dirname.replace('pages', data.metaFolder)
         const browserContext = await chromium.launchPersistentContext('', {

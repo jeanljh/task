@@ -41,12 +41,9 @@ export class Uniswap {
         })
         await pageMeta.waitForLoadState();
         const metamask = new Metamask(pageMeta);
-        // await browserContext.pages()[1].waitForLoadState();
-        // const metamask = new Metamask(browserContext.pages()[1]);
         await metamask.btnOk().click()
         await metamask.btnOk().click()
         await this.btnAccount().waitFor({timeout: 10000})
-        // await this.txtNetwork(data.network.rinkeby).waitFor({timeout: 10000})
     }
 
     /** get the swap rate for a selected exchange token pair */

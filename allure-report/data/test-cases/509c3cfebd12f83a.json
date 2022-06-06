@@ -1,12 +1,12 @@
 {
-  "uid" : "b35287cd93f52f70",
+  "uid" : "509c3cfebd12f83a",
   "name" : "Test - select a token exchange pair to get swap rate",
   "fullName" : "Test - select a token exchange pair to get swap rate",
   "historyId" : " tests\\testwithether.spec.ts Test Suite - Ethereum Test - select a token exchange pair to get swap rate",
   "time" : {
-    "start" : 1654416394826,
-    "stop" : 1654416413284,
-    "duration" : 18458
+    "start" : 1654488340013,
+    "stop" : 1654488368534,
+    "duration" : 28521
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,820 +21,820 @@
     "steps" : [ {
       "name" : "Before Hooks",
       "time" : {
-        "start" : 1654416394827,
-        "stop" : 1654416408331,
-        "duration" : 13504
+        "start" : 1654488340014,
+        "stop" : 1654488362932,
+        "duration" : 22918
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "beforeAll hook",
         "time" : {
-          "start" : 1654416394827,
-          "stop" : 1654416408331,
-          "duration" : 13504
+          "start" : 1654488340014,
+          "stop" : 1654488362932,
+          "duration" : 22918
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "browserContext.grantPermissions",
           "time" : {
-            "start" : 1654416395456,
-            "stop" : 1654416395463,
-            "duration" : 7
+            "start" : 1654488341203,
+            "stop" : 1654488341207,
+            "duration" : 4
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
         }, {
           "name" : "browserContext.waitForEvent",
           "time" : {
-            "start" : 1654416395458,
-            "stop" : 1654416400740,
-            "duration" : 5282
+            "start" : 1654488341205,
+            "stop" : 1654488348188,
+            "duration" : 6983
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
         }, {
           "name" : "page.goto(chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/home.html#initialize/create-password/import-with-seed-phrase)",
           "time" : {
-            "start" : 1654416400745,
-            "stop" : 1654416401907,
-            "duration" : 1162
+            "start" : 1654488348193,
+            "stop" : 1654488350300,
+            "duration" : 2107
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
         }, {
           "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-0)",
           "time" : {
-            "start" : 1654416401908,
-            "stop" : 1654416402081,
-            "duration" : 173
+            "start" : 1654488350303,
+            "stop" : 1654488350778,
+            "duration" : 475
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
         }, {
           "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-1)",
           "time" : {
-            "start" : 1654416402081,
-            "stop" : 1654416402127,
-            "duration" : 46
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-2)",
-          "time" : {
-            "start" : 1654416402128,
-            "stop" : 1654416402178,
-            "duration" : 50
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-3)",
-          "time" : {
-            "start" : 1654416402179,
-            "stop" : 1654416402200,
-            "duration" : 21
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-4)",
-          "time" : {
-            "start" : 1654416402200,
-            "stop" : 1654416402219,
-            "duration" : 19
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-5)",
-          "time" : {
-            "start" : 1654416402220,
-            "stop" : 1654416402238,
-            "duration" : 18
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-6)",
-          "time" : {
-            "start" : 1654416402239,
-            "stop" : 1654416402255,
-            "duration" : 16
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-7)",
-          "time" : {
-            "start" : 1654416402255,
-            "stop" : 1654416402274,
-            "duration" : 19
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-8)",
-          "time" : {
-            "start" : 1654416402275,
-            "stop" : 1654416402293,
-            "duration" : 18
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-9)",
-          "time" : {
-            "start" : 1654416402294,
-            "stop" : 1654416402309,
-            "duration" : 15
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-10)",
-          "time" : {
-            "start" : 1654416402310,
-            "stop" : 1654416402329,
-            "duration" : 19
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-11)",
-          "time" : {
-            "start" : 1654416402329,
-            "stop" : 1654416402388,
-            "duration" : 59
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.fill(#password)",
-          "time" : {
-            "start" : 1654416402388,
-            "stop" : 1654416402408,
-            "duration" : 20
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.fill(#confirm-password)",
-          "time" : {
-            "start" : 1654416402409,
-            "stop" : 1654416402427,
-            "duration" : 18
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.click(#create-new-vault__terms-checkbox)",
-          "time" : {
-            "start" : 1654416402427,
-            "stop" : 1654416402481,
-            "duration" : 54
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.click(button[type='submit'])",
-          "time" : {
-            "start" : 1654416402481,
-            "stop" : 1654416402539,
-            "duration" : 58
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.click(button.btn-primary)",
-          "time" : {
-            "start" : 1654416402539,
-            "stop" : 1654416405181,
-            "duration" : 2642
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.isHidden(text='Ethereum Mainnet')",
-          "time" : {
-            "start" : 1654416405182,
-            "stop" : 1654416405225,
-            "duration" : 43
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "page.close",
-          "time" : {
-            "start" : 1654416405226,
-            "stop" : 1654416405233,
-            "duration" : 7
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "page.goto",
-          "time" : {
-            "start" : 1654416405234,
-            "stop" : 1654416406120,
-            "duration" : 886
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.click(#connect-wallet)",
-          "time" : {
-            "start" : 1654416406124,
-            "stop" : 1654416406375,
-            "duration" : 251
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "browserContext.waitForEvent",
-          "time" : {
-            "start" : 1654416406376,
-            "stop" : 1654416406641,
-            "duration" : 265
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.click(#connect-METAMASK)",
-          "time" : {
-            "start" : 1654416406378,
-            "stop" : 1654416406464,
-            "duration" : 86
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "page.setViewportSize",
-          "time" : {
-            "start" : 1654416406642,
-            "stop" : 1654416406682,
-            "duration" : 40
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "page.waitForLoadState",
-          "time" : {
-            "start" : 1654416406684,
-            "stop" : 1654416408024,
-            "duration" : 1340
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.click(button.btn-primary)",
-          "time" : {
-            "start" : 1654416408025,
-            "stop" : 1654416408193,
-            "duration" : 168
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
-        }, {
-          "name" : "locator.click(button.btn-primary)",
-          "time" : {
-            "start" : 1654416408194,
-            "stop" : 1654416408241,
+            "start" : 1654488350779,
+            "stop" : 1654488350826,
             "duration" : 47
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
         }, {
-          "name" : "locator.waitFor(#web3-status-connected)",
+          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-2)",
           "time" : {
-            "start" : 1654416408242,
-            "stop" : 1654416408331,
-            "duration" : 89
+            "start" : 1654488350827,
+            "stop" : 1654488350866,
+            "duration" : 39
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-3)",
+          "time" : {
+            "start" : 1654488350868,
+            "stop" : 1654488350907,
+            "duration" : 39
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-4)",
+          "time" : {
+            "start" : 1654488350908,
+            "stop" : 1654488350952,
+            "duration" : 44
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-5)",
+          "time" : {
+            "start" : 1654488350953,
+            "stop" : 1654488351012,
+            "duration" : 59
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-6)",
+          "time" : {
+            "start" : 1654488351013,
+            "stop" : 1654488351058,
+            "duration" : 45
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-7)",
+          "time" : {
+            "start" : 1654488351059,
+            "stop" : 1654488351118,
+            "duration" : 59
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-8)",
+          "time" : {
+            "start" : 1654488351119,
+            "stop" : 1654488351161,
+            "duration" : 42
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-9)",
+          "time" : {
+            "start" : 1654488351162,
+            "stop" : 1654488351210,
+            "duration" : 48
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-10)",
+          "time" : {
+            "start" : 1654488351211,
+            "stop" : 1654488351256,
+            "duration" : 45
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.fill(div.MuiFormControl-root #import-srp__srp-word-11)",
+          "time" : {
+            "start" : 1654488351257,
+            "stop" : 1654488351366,
+            "duration" : 109
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.fill(#password)",
+          "time" : {
+            "start" : 1654488351367,
+            "stop" : 1654488351419,
+            "duration" : 52
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.fill(#confirm-password)",
+          "time" : {
+            "start" : 1654488351420,
+            "stop" : 1654488351467,
+            "duration" : 47
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.click(#create-new-vault__terms-checkbox)",
+          "time" : {
+            "start" : 1654488351469,
+            "stop" : 1654488351556,
+            "duration" : 87
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.click(button[type='submit'])",
+          "time" : {
+            "start" : 1654488351557,
+            "stop" : 1654488351632,
+            "duration" : 75
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.click(button.btn-primary)",
+          "time" : {
+            "start" : 1654488351633,
+            "stop" : 1654488355633,
+            "duration" : 4000
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.isHidden(text='Ethereum Mainnet')",
+          "time" : {
+            "start" : 1654488355634,
+            "stop" : 1654488355737,
+            "duration" : 103
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "page.close",
+          "time" : {
+            "start" : 1654488355738,
+            "stop" : 1654488355757,
+            "duration" : 19
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "page.goto",
+          "time" : {
+            "start" : 1654488355758,
+            "stop" : 1654488357351,
+            "duration" : 1593
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.click(#connect-wallet)",
+          "time" : {
+            "start" : 1654488357357,
+            "stop" : 1654488357933,
+            "duration" : 576
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "browserContext.waitForEvent",
+          "time" : {
+            "start" : 1654488357934,
+            "stop" : 1654488358549,
+            "duration" : 615
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.click(#connect-METAMASK)",
+          "time" : {
+            "start" : 1654488357936,
+            "stop" : 1654488358219,
+            "duration" : 283
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "page.setViewportSize",
+          "time" : {
+            "start" : 1654488358550,
+            "stop" : 1654488362040,
+            "duration" : 3490
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "page.waitForLoadState",
+          "time" : {
+            "start" : 1654488362041,
+            "stop" : 1654488362133,
+            "duration" : 92
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.click(button.btn-primary)",
+          "time" : {
+            "start" : 1654488362134,
+            "stop" : 1654488362630,
+            "duration" : 496
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.click(button.btn-primary)",
+          "time" : {
+            "start" : 1654488362630,
+            "stop" : 1654488362766,
+            "duration" : 136
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "locator.waitFor(#web3-status-connected)",
+          "time" : {
+            "start" : 1654488362767,
+            "stop" : 1654488362932,
+            "duration" : 165
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 31,
-        "hasContent" : true,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 31,
+        "hasContent" : true
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 32,
-      "hasContent" : true,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 32,
+      "hasContent" : true
     }, {
       "name" : "locator.fill(#swap-currency-input >> input)",
       "time" : {
-        "start" : 1654416408332,
-        "stop" : 1654416408366,
-        "duration" : 34
+        "start" : 1654488362933,
+        "stop" : 1654488363000,
+        "duration" : 67
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "locator.inputValue(#swap-currency-input >> input)",
       "time" : {
-        "start" : 1654416408367,
-        "stop" : 1654416408376,
-        "duration" : 9
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "entered input amount",
-      "time" : {
-        "start" : 1654416408377,
-        "stop" : 1654416408378,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "locator.innerText(#swap-currency-input >> span.token-symbol-container)",
-      "time" : {
-        "start" : 1654416408378,
-        "stop" : 1654416408383,
-        "duration" : 5
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "locator.innerText(#swap-currency-output >> span.token-symbol-container)",
-      "time" : {
-        "start" : 1654416408383,
-        "stop" : 1654416408389,
-        "duration" : 6
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "locator.click(#swap-currency-output >> span.token-symbol-container)",
-      "time" : {
-        "start" : 1654416408389,
-        "stop" : 1654416408658,
-        "duration" : 269
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "locator.fill(#token-search-input)",
-      "time" : {
-        "start" : 1654416408659,
-        "stop" : 1654416408714,
-        "duration" : 55
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "locator.click(div.css-8mokm4 >> text='UNI')",
-      "time" : {
-        "start" : 1654416408715,
-        "stop" : 1654416409082,
-        "duration" : 367
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "locator.innerText(#swap-currency-output >> span.token-symbol-container)",
-      "time" : {
-        "start" : 1654416409082,
-        "stop" : 1654416409090,
-        "duration" : 8
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "selected output token",
-      "time" : {
-        "start" : 1654416409090,
-        "stop" : 1654416409090,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "locator.inputValue(#swap-currency-output >> input)",
-      "time" : {
-        "start" : 1654416409091,
-        "stop" : 1654416409095,
-        "duration" : 4
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "page.waitForTimeout",
-      "time" : {
-        "start" : 1654416409096,
-        "stop" : 1654416410106,
-        "duration" : 1010
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "locator.inputValue(#swap-currency-output >> input)",
-      "time" : {
-        "start" : 1654416410107,
-        "stop" : 1654416410111,
-        "duration" : 4
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "page.waitForTimeout",
-      "time" : {
-        "start" : 1654416410112,
-        "stop" : 1654416411119,
-        "duration" : 1007
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "locator.inputValue(#swap-currency-output >> input)",
-      "time" : {
-        "start" : 1654416411119,
-        "stop" : 1654416411131,
+        "start" : 1654488363002,
+        "stop" : 1654488363014,
         "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
-      "name" : "page.waitForTimeout",
+      "name" : "entered input amount",
       "time" : {
-        "start" : 1654416411132,
-        "stop" : 1654416412146,
-        "duration" : 1014
+        "start" : 1654488363018,
+        "stop" : 1654488363019,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.innerText(#swap-currency-input >> span.token-symbol-container)",
+      "time" : {
+        "start" : 1654488363021,
+        "stop" : 1654488363055,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.innerText(#swap-currency-output >> span.token-symbol-container)",
+      "time" : {
+        "start" : 1654488363057,
+        "stop" : 1654488363066,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(#swap-currency-output >> span.token-symbol-container)",
+      "time" : {
+        "start" : 1654488363067,
+        "stop" : 1654488363431,
+        "duration" : 364
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.fill(#token-search-input)",
+      "time" : {
+        "start" : 1654488363432,
+        "stop" : 1654488363764,
+        "duration" : 332
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(div.css-8mokm4 >> text='UNI')",
+      "time" : {
+        "start" : 1654488363765,
+        "stop" : 1654488364321,
+        "duration" : 556
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.innerText(#swap-currency-output >> span.token-symbol-container)",
+      "time" : {
+        "start" : 1654488364322,
+        "stop" : 1654488364410,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "selected output token",
+      "time" : {
+        "start" : 1654488364411,
+        "stop" : 1654488364411,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "locator.inputValue(#swap-currency-output >> input)",
       "time" : {
-        "start" : 1654416412146,
-        "stop" : 1654416412150,
-        "duration" : 4
+        "start" : 1654488364412,
+        "stop" : 1654488364417,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "page.waitForTimeout",
       "time" : {
-        "start" : 1654416412150,
-        "stop" : 1654416413152,
+        "start" : 1654488364418,
+        "stop" : 1654488365420,
         "duration" : 1002
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "locator.inputValue(#swap-currency-output >> input)",
       "time" : {
-        "start" : 1654416413153,
-        "stop" : 1654416413282,
-        "duration" : 129
+        "start" : 1654488365420,
+        "stop" : 1654488365426,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForTimeout",
+      "time" : {
+        "start" : 1654488365426,
+        "stop" : 1654488366434,
+        "duration" : 1008
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.inputValue(#swap-currency-output >> input)",
+      "time" : {
+        "start" : 1654488366435,
+        "stop" : 1654488366439,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForTimeout",
+      "time" : {
+        "start" : 1654488366439,
+        "stop" : 1654488367446,
+        "duration" : 1007
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.inputValue(#swap-currency-output >> input)",
+      "time" : {
+        "start" : 1654488367446,
+        "stop" : 1654488367450,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForTimeout",
+      "time" : {
+        "start" : 1654488367451,
+        "stop" : 1654488368457,
+        "duration" : 1006
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.inputValue(#swap-currency-output >> input)",
+      "time" : {
+        "start" : 1654488368458,
+        "stop" : 1654488368532,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "display swap value of output token",
       "time" : {
-        "start" : 1654416413283,
-        "stop" : 1654416413283,
-        "duration" : 0
+        "start" : 1654488368532,
+        "stop" : 1654488368533,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "After Hooks",
       "time" : {
-        "start" : 1654416413283,
-        "stop" : 1654416413283,
+        "start" : 1654488368533,
+        "stop" : 1654488368533,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 54,
-    "hasContent" : true,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 54,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -863,6 +863,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b35287cd93f52f70.json",
+  "source" : "509c3cfebd12f83a.json",
   "parameterValues" : [ ]
 }
