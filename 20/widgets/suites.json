@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"37c84e9d8d38da614a5441370c68a147","name":"tests/testwithether.spec.ts","statistic":{"failed":1,"broken":0,"skipped":2,"passed":0,"unknown":0,"total":3}},{"uid":"580716e55cc1f66dc5cfa765f40eda8f","name":"tests/testwithrinkeby.spec.ts","statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1}}]}
